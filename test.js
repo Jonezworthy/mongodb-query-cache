@@ -1,5 +1,5 @@
 var MongoCache = require("./index");
-MongoCache.setCacheDirectory(__dirname + "/mongodb-cache");
+MongoCache.setCacheDirectory(__dirname + "/-cache");
 
 MongoCache.connect("mongodb://localhost:27017/jobjobjob", function (err, db) {
     if (err) {
