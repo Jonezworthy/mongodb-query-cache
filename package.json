@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-query-cache",
+  "version": "0.1.0",
+  "description": "MongoDB long term caching storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Andrew Jones <jonezy2004@hotmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonezworthy/mongodb-query-cache.git"
+  },
+  "keywords": [
+    "mongodb",
+    "query",
+    "cache"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jonezworthy/mongodb-query-cache/issues"
+  },
+  "homepage": "https://github.com/Jonezworthy/mongodb-query-cache#readme",
+  "dependencies": {
+    "mongodb": "^2.2.5"
+  }
+}
